@@ -23,8 +23,11 @@ public class ReturnAndParaCheck {
         System.out.println(shop3bill);
         
         System.out.println(shopping.shop4bill);
-        String shop4bill = shopping.billingSection();/// this is not working for me, still getting older value of shop4bill variable
+     //   String shop4bill = shopping.billingSection();/// this is not working for me, still getting older value of shop4bill variable
+    //    System.out.println(shopping.shop4bill);
+        shopping.shop4bill = shopping.billingSection();
         System.out.println(shopping.shop4bill);
+
         
         shopping.offertshirt(shop3bill);/// we are assigning retuntype method to parameterziation method
         
@@ -79,7 +82,7 @@ class permburArea{
 	
 }
 
-
+/////////////////////////////////////////////////////////////////////////////////////////////////////      
 
 
 
